@@ -1,0 +1,62 @@
+.bg-servs {
+    background-image: linear-gradient(to left, gray, rgb(236, 154, 2));
+}
+
+.containter-titulo-servs {
+    color: rgb(5, 5, 5);
+    text-decoration: underline;
+    text-align: center;
+    margin: 20px;
+}
+
+.container-card-servs {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    margin: 10px;
+
+    img {
+        border-radius: 20px;
+    }
+
+
+    @media (max-width: 1800px) {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+
+
+
+
+
+
+
+.item-servicios {
+    padding: 10px;
+    margin: 50px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    p {
+        font-size: 22px;
+        text-align: justify;
+
+        @media (max-width: 1800px) {
+            text-align: center;
+        }
+    }
+
+
+}
+
+.copyright-servicios {
+    color: rgb(7, 7, 7);
+    text-align: center;
+    margin-top: 20px;
+
+}
