@@ -1,9 +1,5 @@
 .bg-index {
-    background-image: url(/imgs/fondo-index.png);
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-color: rgb(6, 6, 70);
 }
 
 .pie-de-pagina h1 {
@@ -23,8 +19,10 @@
 
 
 .boton-info {
-    width: 600px;
-    transition: 0.2s;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding: 5px;
 
     a {
         color: white;
@@ -71,43 +69,35 @@
 }
 
 
-.eslogan p {
-    color: white;
-    display: flex;
-    margin: 200px;
-}
-
 .parrafo {
-    margin-left: 1300px;
-    margin-top: -400px;
-    width: 600px;
-    max-width: 600px;
     color: white;
+    text-align: center;
     font-size: 20px;
-    text-align: justify;
+    margin-top: -200px;
+    
 
     @media (max-width: 1200px) {
         font-size: 18px;
-        margin-top: 490px;
-        margin-left: 300px;
+        margin-top: -100px;
+        margin-left: 50px;
     }
 
     @media (max-width: 992px) {
         font-size: 18px;
-        margin-top: 490px;
-        margin-left: 200px;
+        margin-top: -120px;
+        margin-left: 100px;
     }
 
     @media (max-width: 768px){
         font-size: 18px;
-        margin-top: 500px;
-        margin-left: 100px;
+        margin-top: -100px;
+        margin-left: 50px;
     }
 
     @media (max-width: 576px){
         text-align: center;
         font-size: 16px;
-        margin-top: 450px;
+        margin-top: -200px;
         margin-left: 0px;
         padding: 40px;
     }
