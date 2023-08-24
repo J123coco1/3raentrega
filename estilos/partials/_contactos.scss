@@ -18,18 +18,19 @@
         margin-bottom: 15px;
         font-size: 35px;
 
-        @media (max-width: 576px){
+        @media (max-width: 576px) {
             margin-left: 200px;
         }
-        
+
     }
 
     p {
+        color: white;
         font-size: 20px;
         line-height: 1.6;
         margin-bottom: 30px;
 
-        @media (max-width: 576px){
+        @media (max-width: 576px) {
             width: 400px;
             margin-left: 100px;
             text-align: justify;
@@ -42,18 +43,18 @@
         text-decoration: none;
         width: 100%;
         margin-bottom: 15px;
-        color: black;
+        color: white;
         font-weight: 700;
         padding: 10px;
 
-        @media (max-width: 576px){
+        @media (max-width: 576px) {
             width: 400px;
             margin-left: 100px;
             text-align: justify;
         }
     }
 
-    a i {
+    a ion-icon{
         color: orange;
         margin-right: 10px;
     }
@@ -63,7 +64,7 @@
         width: 100%;
         padding: 20px 10px;
         font-size: 15px;
-        border: 1px solid orange;
+        border: 5px solid black;
         margin-bottom: 20px;
         border-radius: 10px;
         outline: 0px;
@@ -87,15 +88,23 @@
         cursor: pointer;
         transition: all 300ms ease;
 
-        &:hover{
+        &:hover {
             background-color: gray;
         }
     }
 
-    form{
-        @media (max-width: 576px){
+    form {
+        @media (max-width: 576px) {
             margin-top: 530px;
             margin-left: -550px;
         }
     }
+}
+
+.footer-contacto{
+     color: white;
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    text-align: center;
 }
