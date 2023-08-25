@@ -2,6 +2,10 @@
     background-image: linear-gradient(to left, rgb(255, 255, 255), orange);
 }
 
+header{
+    width: 100%;
+}
+
 .quienesomos {
     color: rgb(12, 6, 6);
     text-decoration: underline;
@@ -40,22 +44,9 @@
 
 
 .muestra {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 10px;
-    margin: 10px;
-    margin-left: 300px;
-
-
-    @media (max-width: 992px) {
-        grid-template-columns: 1fr 1fr;
-        margin-left: 200px;
-    }
-
-    @media (max-width: 576px) {
-        grid-template-columns: 1fr;
-        margin-left: 120px;
-    }
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .copyright-quienesomos {
